@@ -2,15 +2,20 @@
 
 // il programma stampa la somma di tutti i numeri inseriti.
 
-const sommaNumeri = document.querySelector('.numbers')
+let sommaNumeri = document.querySelector('.numbers')
+
+let somma = 0;
 
 for (let index = 0; index < 10; index++) {
     const element = parseInt(prompt('inserisci un numero'));
 
-    sommaNumeri.innerHTML = element + element
+    somma += element
 
 
 
+    console.log(somma);
 
 
 }
+
+sommaNumeri.innerHTML = somma
