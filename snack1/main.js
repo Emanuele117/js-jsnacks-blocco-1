@@ -12,3 +12,14 @@
 
 */
 
+const userNumbOne = parseInt(prompt('inserisci un numero!'));
+
+const userNumbTwo = parseInt(prompt('inserisci un numero!'));
+
+const risultato = document.querySelector('.risultato');
+
+if (userNumbOne > userNumbTwo) {
+    risultato.innerHTML += userNumbOne
+} else {
+    risultato.innerHTML += userNumbTwo
+}
