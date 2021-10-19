@@ -4,6 +4,9 @@
 
 const askNumb = parseInt(prompt("inserisci un numero"))
 
-const risultato = document.querySelector(".risultato")
+for (let index = 1; index <= askNumb; index++) {
+    console.log(Math.pow(index, 3))
 
-risultato.innerHTML += Math.pow(askNumb, 3)
+
+}
+
